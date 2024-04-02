@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="mainstylefile.css">
+	<base target="_self">
+
+    <title>Gallery page</title>
+    <style>
+   
+        body{
+            background-image: none;
+            background-color: black;
+        }
+        .image-row {
+            display: flex;
+            justify-content: space-evenly; /*Even spaces between images*/
+            flex-wrap: wrap;
+        }
+
+        .image-container {
+            position: relative;
+            width: 30%;
+            margin: 10px;
+            overflow: hidden;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out; /*Smooth transition when hovering*/
+        }
+
+        .image-container:hover {
+            transform: scale(1.05);
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Maintain aspect ratio and cover the container */
+            border-radius: 10px 10px 0 0;
+        }
+
+        .image-description {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 10px;
+            border-radius: 0 0 10px 10px;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .image-container:hover .image-description {
+            opacity: 1;
+        }
+        h1{
+            text-align: center;
+            color: white;
+        }
+        span{
+            color: darkorange;
+        }
+		  .top{
+           color:#FF7F27;}
+        .top:hover {
+          color: #FFFFFF;
+        }
+        .logo{
+            height: 6%;
+        }
+		
+    </style>
+</head>
+<body>
+    <center>
+        <nav-bar> 
+       
+               <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="event page.html">Events</a></li>
+                <li><a href="Location table.html">Locations</a></li>
+                <li style="margin-right: 200px;"><a href="gallery page.html">Gallery</a></li>
+                <li>
+               <figure>
+                <img class="logo" src="images/telescope.png" alt="logo">
+               </figure>
+                </li>         
+                <li style="margin-left: 200px;"><a href="search.html">Search</a></li>
+                <li><a href="contactus.html">Contact us</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+              <li id="dropdown" ><a href="FAQs.html">FAQs</a>
+             <div id="dropdown-content">
+                    <a href="when_to_go_stargazing.html">When to go stargazing?</a>
+                    <a href="where_to_go_stargazing.html">where to go stargazing?</a>
+                    <a href="What_to_take_stargazing.html">What to take stargazing</a>
+                   </div>
+             </li>
+              </ul>
+       
+              </nav-bar>
+       </center>
+   
+<div class="main_content">
+
+    <h1 id = "title">Best <span>15</span> Photographed Images </h1>
+    <br>
+    <div class="image-row">
+        <div class="image-container">
+            <img src="images/gallery/1.jpg" alt="Image 1">
+            <div class="image-description">
+                <p>Hubble Celebrates its 31st anniversary with a magnificent view of AG Carinae</p>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="images/gallery/2.jpg" alt="Image 2">
+            <div class="image-description">
+                <p>Nestled amongst the vast clouds of star-forming regions like this one lie potential clues about the formation of our own Solar System. </p>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="images/gallery/3.jpg" alt="Image 3">
+            <div class="image-description">
+                <p>This image from the NASA/ESA Hubble Space Telescope reveals a glistening and ancient globular cluster named NGC 3201 — a gathering of hundreds of thousands of stars bound together by gravity.</p>
+            </div>
+        </div>
+    </div>
+
+
+<div class="image-row">
+        <div class="image-container">
+            <img src="images/gallery/4.jpg" alt="Image 1">
+            <div class="image-description">
+                <p>This Hubble image shows RS Puppis, a type of variable star known as a Cepheid variable.
+				As variable stars go, Cepheids have comparatively long periods — RS Puppis, for example, varies in brightness by almost a factor of five every 40 or so days.</p>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="images/gallery/5.jpg" alt="Image 2">
+            <div class="image-description">
+                <p>This image, taken with Hubble’s Advanced Camera for Surveys shows a part the globular cluster NGC 6752. Behind the bright stars of the cluster a denser collection 
+				of faint stars is visible — a previously unknown dwarf spheroidal galaxy. This galaxy, nicknamed Bedin 1, is about 30 million light-years from Earth.</p>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="images/gallery/6.jpg" alt="Image 3">
+            <div class="image-description">
+                <p>The bright star in the centre of the image is the nearby white dwarf Stein 2051B,
+				only 17 light-years from Earth. The smaller star below is about 5000 light-years away. </p>
+            </div>
+        </div>
+    </div>
+	
+	<div class="image-row">
+        <div class="image-container">
+            <img src="images/gallery/7.jpg" alt="Image 1">
+            <div class="image-description">
+                <p>This Hubble image shows RS Puppis, a type of variable star known as a Cepheid variable. As variable stars go, Cepheids have comparatively long periods 
+				— RS Puppis, for example, varies in brightness by almost a factor of five every 40 or so days.</p>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="images/gallery/8.jpg" alt="Image 2">
+            <div class="image-description">
+                <p>This image shows NGC 121, a globular cluster in the constellation of Tucana (The Toucan). Globular clusters are big balls of old stars that orbit 
+				the centres of their galaxies like satellites — the Milky Way, for example, has around 150.</p>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="images/gallery/9.jpg" alt="Image 3">
+            <div class="image-description">
+                <p>This image of the Herbig–Haro objects HH 1 and HH 2 from the NASA/ESA Hubble Space Telescope depicts. Both objects are in the constellation Orion and lie around 1250 light-years from Earth.
+				HH 1 is the luminous cloud above the bright star in the upper right of this image, and HH 2 is the cloud in the bottom left.</p>
+            </div>
+        </div>
+    </div>
+	
+	<div class="image-row">
+        <div class="image-container">
+            <img src="images/gallery/10.jpg" alt="A cosmic lightsabre">
+            <div class="image-description">
+                <p>The two lightsabre-like streams crossing the image are jets of energised gas, ejected from the poles of a young star. If the jets collide with the surrounding gas
+				and dust they can clear vast spaces, and create curved shock waves, seen as knotted clumps called Herbig-Haro objects.</p>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="images/gallery/11.jpg" alt="Snapshot of a shedding star">
+            <div class="image-description">
+                <p>In this new Hubble image, the strikingly luminous star AG Carinae — otherwise known as HD 94910 — takes centre stage. Found within the constellation of Carina
+				in the southern sky, AG Carinae lies 20 000 light-years away, nestled in the Milky Way..</p>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="images/gallery/12.jpg" alt="Hubble sees a cosmic caterpillar">
+            <div class="image-description">
+                <p>This light-year-long knot of interstellar gas and dust resembles a caterpillar on its way to a feast. But the meat of the story is not only what this cosmic caterpillar eats for lunch, but also what's eating it. 
+				Harsh winds from extremely bright stars are blasting ultraviolet radiation at this "wanna-be" star and sculpting the gas and dust into its long shape.</p>
+            </div>
+        </div>
+    </div>
+	
+	<div class="image-row">
+        <div class="image-container">
+            <img src="images/gallery/13.jpg" alt="A glowing jet from a young star">
+            <div class="image-description">
+                <p>This image shows an object known as HH 151, a bright jet of glowing material trailed by an intricate, orange-hued plume of gas and dust. It is located some 460 light-years away in
+				the constellation of Taurus (The Bull), near to the young, tumultuous star HL Tau.</p>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="images/gallery/14.jpg" alt="Preview of a forthcoming supernova">
+            <div class="image-description">
+                <p>At the turn of the 19th century, the binary star system Eta Carinae was faint and undistinguished. In the first decades of the century, it became brighter and brighter, until, by April 1843, it was the second brightest star in the sky, outshone only by Sirius 
+				(which is almost a thousand times closer to Earth). In the years that followed, it gradually dimmed again and by the 20th century was totally invisible to the naked eye.</p>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="images/gallery/15.jpg" alt="Jet from young star (HH-47)">
+            <div class="image-description">
+                <p>This view of a three trillion mile-long jet called HH-47 reveals a very complicated jet pattern that indicates the star (hidden inside a dust cloud near the left edge of the image) 
+				might be wobbling, possibly caused by the gravitational pull of a companion star.</p>
+            </div>
+        </div>
+    </div>
+	<a  class ="top" href ="#title">Top</a>
+</div>
+	 
+</body>
+</html>

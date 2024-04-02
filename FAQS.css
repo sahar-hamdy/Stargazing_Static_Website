@@ -1,0 +1,32 @@
+body {
+   font-family: Arial, sans-serif;
+   color:white;
+}
+h1{
+	color: white;
+	}
+h2{
+	color:white;
+    padding: 15px;
+
+}
+.main_content ul {
+list-style-type: none;
+  margin: 15px;
+  padding: 60px;
+  overflow: hidden;
+}
+.main_content ul li {
+  float: left;
+}
+.main_content ul li a {
+  color: white;
+
+}
+
+ul.answers {
+list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}

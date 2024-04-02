@@ -1,0 +1,187 @@
+body{
+   font-family: Arial, sans-serif;
+   color:white;
+   background-image:url("images/back9.jpg") ;
+   background-repeat: no-repeat;
+   background-size: auto;
+   overflow-x: hidden;
+	 }
+.main_content{
+	 margin-top: 20px;
+
+	 }
+h1 {
+      color: white;
+	  font-size:50px;
+	  margin: 15px;
+	  text-align: center;
+
+
+		}
+
+		a{
+			text-decoration: none;
+			  color: white;
+
+		}
+nav-bar{
+	
+background-color:transparent;
+  top: 0; 
+  width: 100vw;
+  height:12%;
+  z-index:2;
+}
+nav-bar ul {
+  list-style-type: none;
+  display: inline-block;
+  margin: 15px;
+  padding: 12px;
+  overflow: hidden;
+}
+nav-bar ul li {
+  float: left;
+}
+#dropdown:hover #dropdown-content{ /*When hovering over the FAQs the drop down appears*/
+  display: block; /*under each other*/
+  position: absolute;
+}
+nav-bar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+}
+
+li a h2:hover {
+  color: darkorange;
+  
+}
+li a:hover {
+  color: darkorange;
+  
+}
+#dropdown-content{
+	display:none
+	
+}
+
+
+.logo img{
+  height: 6%;
+  width: 100%;
+}
+
+#contact {
+  width: 60%;
+  height: 60%;
+  background-color: #000;
+}
+
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+  font: 300 60px 'Oswald', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between; 
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  max-width: 840px;
+}
+
+/* Left contact page */
+.form-horizontal {
+  /*float: left;*/
+  max-width: 400px;
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
+.form-control, 
+textarea {
+  max-width: 400px;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.send-button {
+  margin-top: 15px;
+  height: 34px;
+  width: 400px;
+}
+
+
+
+.send-text {
+  display: block;
+  margin-top: 10px;
+  font: 700 12px 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
+
+
+/* Begin Right Contact Page */
+.direct-contact-container {
+  max-width: 400px;
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+  margin-left: -30px;
+  padding-right: 20px;
+}
+
+.list-item {
+  line-height: 4;
+  color: #aaa;
+}
+
+.contact-text {
+  font: 300 18px 'Lato', sans-serif;
+  letter-spacing: 1.9px;
+  color: #bbb;
+}
+
+.place {
+  margin-left: 62px;
+}
+
+.phone {
+  margin-left: 56px;
+}
+
+.gmail {
+  margin-left: 53px;
+}
+
+.contact-text a {
+  color: #bbb;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright {
+  font: 200 14px 'Oswald', sans-serif;
+  color: #555;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+hr {
+  border-color: rgba(255,255,255,.6);
+}
